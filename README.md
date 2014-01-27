@@ -8,8 +8,8 @@ ni con acentos y símbolos especiales.
 
 En éste catálogo actualmente se encuentran los siguientes:
 
-* Catálogos (actualizado a Ene-2014 - fuente:[INEGI - Catálogos predefinidos])
-[1], en CSV:
+* Catálogos (actualizado a Ene-2014 - fuente:[INEGI - Catálogos 
+predefinidos][1]), en CSV:
    - Entidades (32) 
    - Municipios (2457)
    - Localidades (299864)

@@ -10,7 +10,7 @@ En éste catálogo actualmente se encuentran los siguientes:
 
 * Catálogos (actualizado a Ene-2014), en CSV:
    - Entidades (32) 
-   - Municipios (2456)
+   - Municipios (2457)
    - Localidades (299864)
 
 

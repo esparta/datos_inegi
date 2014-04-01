@@ -54,6 +54,7 @@ def insert(work, cur):
         dialect = csv.Sniffer().sniff(csvfile.read(4086))
         csvfile.seek(0)
         reader = csv.reader(csvfile, dialect)
+        next(reader)
         query = """
              INSERT INTO {entity} VALUES ({qm});
         """.format(entity=entity, qm = ("?," * values["fields"])[:-1])

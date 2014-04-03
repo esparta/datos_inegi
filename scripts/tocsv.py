@@ -18,10 +18,10 @@ import sys
 import optparse
 import os
 
-def csvwrite(filename, verbose=None):
+def csvwrite(filename, verbose=None, codepage="cp1252"):
     """ Write the file on the desired format """
     records = 0
-    table = dbf.Table(filename, codepage="cp1252")
+    table = dbf.Table(filename, codepage=codepage)
     table.open()
     with open("{f}.csv".format(f=filename), "w") as csvfile:
         # Include the first line as a comma-separated line, no-quoting
